@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.dk_logout_icon{
+margin: 0 16px;
+}
+.dk_color_white{
+	color: white;
+}
+.tp-card {
+   max-width: 400px;
+}
+.tp-header-image {
+   background-image: url('https://www.tutorialspoint.com/materialize/src/html5-mini-logo.jpg');
+   background-size: cover;
+}
+.dk_color_black{
+	color: black;
+}
