@@ -1,0 +1,29 @@
+.dk_home_card{
+  background-color: #008080;
+  color: white;
+}
+h4{
+  font-size: 18px!important;
+}
+.modal-content{
+  box-shadow: none;
+}
+.list-group-item{
+  background-color: transparent;
+}
+.list-group{
+  margin-bottom: 0px;
+}
+.list-group-item {
+  padding: 9px 15px;
+}
+.dk_black_white{
+  color: white;
+}
+.dk_align_right{
+  text-align: right;
+  float: right;
+}
+.dk_hov:hover{
+  color: black;
+}
