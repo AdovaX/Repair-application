@@ -11,6 +11,7 @@ import { FooterComponent } from './Dk/footer/footer.component';
 import { ComplaintComponent } from './Dk/complaint/complaint.component';
 import { ContactComponent } from './Dk/contact/contact.component';
 import {MatIconModule} from '@angular/material/icon';
+import { ProfileComponent } from './Dk/profile/profile.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import {MatIconModule} from '@angular/material/icon';
     HeaderComponent,
     FooterComponent,
     ComplaintComponent,
-    ContactComponent
+    ContactComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

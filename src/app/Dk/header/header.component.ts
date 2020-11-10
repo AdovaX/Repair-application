@@ -31,15 +31,7 @@ export class HeaderComponent implements OnInit {
     }
   });
 
-  //on window scrolling - fix sidebar nav
-  var scrolling = false;
-  checkScrollbarPosition();
-  $(window).on('scroll', function(){
-    if( !scrolling ) {
-      (!window.requestAnimationFrame) ? setTimeout(checkScrollbarPosition, 300) : window.requestAnimationFrame(checkScrollbarPosition);
-      scrolling = true;
-    }
-  });
+ 
 
   //mobile only - open sidebar when user clicks the hamburger menu
   sidebarTrigger.on('click', function(event){
@@ -125,7 +117,7 @@ export class HeaderComponent implements OnInit {
 
       ( ( scrollTop + windowHeight > sidebarHeight ) && ( mainContentHeight - sidebarHeight != 0 ) ) ? sidebar.addClass('is-fixed').css('bottom', 0) : sidebar.removeClass('is-fixed').attr('style', '');
     }
-    scrolling = false;
+    
   }
 });
 
